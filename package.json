@@ -13,6 +13,7 @@
     "foreman": "^2.0.0",
     "jsonwebtoken": "^8.1.0",
     "jwt-decode": "^2.2.0",
+    "marked": "^0.3.16",
     "mongoose": "^4.12.3",
     "morgan": "~1.8.1",
     "nodemon": "^1.12.1",
