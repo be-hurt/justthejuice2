@@ -12,22 +12,22 @@ const Carousel = () => (
             <div class="item active">
                 <img src="/images/coffee.jpg" href="#" alt="Coffee recipes" />
                 <div class="carousel-caption">
-                    <a href="recipes"><h2>Coffee Recipes</h2>
+                    <a href="recipes"><h2>Coffee</h2>
                         <p>Cappuccinos, Lattes and more</p></a>
                 </div>
             </div>
             <div class="item">
                 <img src="/images/smoothie.jpg" href="#" alt="Smoothie recipes" />
                 <div class="carousel-caption">
-                    <a href="recipes"><h2>Smoothie Recipes</h2>
-                        <p>jsdjashdjsakhfjksdhjfha</p></a>
+                    <a href="recipes"><h2>Smoothies</h2>
+                    <p>For a hot day or a healthy snack</p></a>
                 </div>
             </div>
             <div class="item">
                 <img src="/images/tea.jpg" alt="Tea recipes" />
                 <div class="carousel-caption">
-                    <a href="recipes"><h2>Tea Recipes</h2>
-                    <p>jsdjashdjsakhfjksdhjfha</p></a>
+                    <a href="recipes"><h2>Tea</h2>
+                    <p>Refreshing iced teas and lattes</p></a>
                 </div>
             </div>
       </div>

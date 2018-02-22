@@ -20,6 +20,7 @@
 
 body {
     background-color: #c6e3ab;
+    background-image: url(/images/seigaiha_green.png);
 }
 .navbar {
     background-color: #6fb035;
@@ -138,7 +139,7 @@ h1 {
 }
 
 .recipe-card-photo {
-    height: 250px;
+    height: 252px;
     width: 30%;
     overflow: hidden;
     float: left;
@@ -192,4 +193,36 @@ h1 {
 .success {
     color: blue;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-wrapper {
+        margin-bottom: 4em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    .recipe-card {
+        margin: 2em 0 5em 0;
+        height: auto;
+    }
+
+    .recipe-card-photo {
+        display: inline-block;
+        max-height: 150px;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        border: none;
+        border-bottom: 4px solid #6fb035;
+    }
+
+    .recipe-card-text{
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        display: inline-block;
+        padding: 5%;
+        margin: 0;
+    }
 }
