@@ -22,7 +22,6 @@ class Home extends Component {
  	*/
 
  	loadRecipesFromServer() {
- 		console.log('firing!!!');
 	    // create an AJAX request
 	    const xhr = new XMLHttpRequest();
 	    xhr.open('GET', 'http://localhost:3001/api/recipes');
